@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-environment",
+      "2": "I-environment",
+      "3": "L-environment",
+      "4": "U-environment",
+      "5": "B-general_entity",
+      "6": "I-general_entity",
+      "7": "L-general_entity",
+      "8": "U-general_entity",
+      "9": "B-step",
+      "10": "I-step",
+      "11": "L-step",
+      "12": "U-step",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-environment": 1,
+      "I-environment": 2,
+      "L-environment": 3,
+      "U-environment": 4,
+      "B-general_entity": 5,
+      "I-general_entity": 6,
+      "L-general_entity": 7,
+      "U-general_entity": 8,
+      "B-step": 9,
+      "I-step": 10,
+      "L-step": 11,
+      "U-step": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

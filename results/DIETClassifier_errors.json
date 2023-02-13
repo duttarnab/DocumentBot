@@ -1,0 +1,46 @@
+[
+  {
+    "text": "What are the supported OS of Gluu server?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "general_entity",
+        "start": 23,
+        "end": 25,
+        "confidence_entity": 0.5458263158798218,
+        "value": "os",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is the VM requirement for installation of Gluu server?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 14,
+        "value": "VM",
+        "entity": "general_entity"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "value": "installation",
+        "entity": "step"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "general_entity",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.994616687297821,
+        "value": "VM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

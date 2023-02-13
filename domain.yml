@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - get_carousels
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - content_selection
+  - system_requirements
+
+entities:
+  - environment
+  - general_entity
+  - application
+  - cloud-server
+  - deployment-platform
+slots: 
+  selected_content:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: custom
+
+responses:
+  utter_greet:
+  - text: "Hi there. I am a bot to answer your questions from document. Click on the topic button to narrow down your search."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Gluu."
+
+  utter_content_selection:
+  - text: Type your question (Keep it short and precise). To go back to main menu click on below button.
+    buttons:
+      - title: "Main Menu"
+        payload: "/get_carousels"
+    custom:
+      input_type: "disable"
+      back_button: true
+      exit_button: false
+
+actions:
+  - action_carousels
+  - action_system_requirements
+  - action_button_click
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

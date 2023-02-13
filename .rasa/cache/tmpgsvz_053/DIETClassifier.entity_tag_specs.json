@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-environment",
+      "2": "I-environment",
+      "3": "L-environment",
+      "4": "U-environment",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-environment": 1,
+      "I-environment": 2,
+      "L-environment": 3,
+      "U-environment": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

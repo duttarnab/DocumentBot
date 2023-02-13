@@ -1,0 +1,21 @@
+{
+  "os": "os",
+  "operating systems": "os",
+  "operating system": "os",
+  "ufw": "firewall",
+  "aws": "aws",
+  "amazon web services": "aws",
+  "google cloud": "google-cloud",
+  "microsoft azure": "microsoft-azure",
+  "linode": "linode",
+  "kubernetes": "kubernetes",
+  "cloud native": "cn",
+  "cn": "cn",
+  "digitalocean": "digitalocean",
+  "azure": "azure",
+  "minikube": "minikube",
+  "microk8s": "microK8s",
+  "rhel": "rhel",
+  "centos": "centos",
+  "suse": "suse"
+}

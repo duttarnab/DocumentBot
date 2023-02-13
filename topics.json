@@ -1,0 +1,29 @@
+{
+    "topics": [
+        {
+            "title": "VM Preparation",
+            "payload": "/content_selection{\"selected_content\": \"vm-preparation\"}",
+            "type": "postback"
+        },
+        {
+            "title": "Installation",
+            "payload": "/content_selection{\"selected_content\": \"installation\"}",
+            "type": "postback"
+        },
+        {
+            "title": "Upgrade",
+            "payload": "https://gluu.org/docs/gluu-server/4.5/upgrade/",
+            "type": "web_url"
+        },
+        {
+            "title": "Clustering",
+            "payload": "https://gluu.org/docs/gluu-server/4.5/installation-guide/cluster/",
+            "type": "web_url"
+        },
+        {
+            "title": "Interception Scripts",
+            "url": "https://www.gluu.org/docs/gluu-server/4.5/admin-guide/custom-script/",
+            "type": "web_url"
+        }
+    ]
+}

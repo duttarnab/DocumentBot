@@ -1,0 +1,152 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: get_carousels
+  examples: |
+    - display carousels
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: content_selection
+  examples: |
+    - what to do?
+
+- intent: supported_os
+  examples: |
+    - What are the supported OS of Gluu server?
+    - supported os
+
+- intent: system_requirements
+  examples: |
+    #vm-preparation
+    - What is the [VM]{"entity": "general_entity"} requirement for [installation]{"entity": "step"} of Gluu server? 
+    - What is the [RAM]{"entity": "general_entity"} required for installation of Gluu server?
+    - What is the [memory]{"entity": "general_entity"} required for installation of Gluu server?
+    - What is the system requirement of [testing]{"entity": "environment"}?
+    - system requirement of [testing]{"entity": "environment"}
+    - provide system requirement of [testing]{"entity": "environment"}
+    - What is the system requirement of [production]{"entity": "environment"}?
+    - system requirement of [production]{"entity": "environment"}
+    - provide system requirement of [production]{"entity": "environment"}
+    - What is the [CPU]{"entity": "general_entity"} required to install Gluu server?
+    - What is the [RAM]{"entity": "general_entity"} and [CPU]{"entity": "general_entity"} required for [oxAuth]{"entity": "application"} installation?
+    - requirements for [oxTrust]{"entity": "application"} installation
+    - what are [OS]{"entity": "general_entity", "value": "os"} supported by Gluu server?
+    - [Operating systems]{"entity": "general_entity", "value": "os"} supported?
+    - [Operating system]{"entity": "general_entity", "value": "os"} supported?
+    - what are [firewall]{"entity": "general_entity", "value": "firewall"} settings for Gluu server?
+    - [ufw]{"entity": "general_entity", "value": "firewall"} settings for Gluu server?
+    - How to install Gluu server on [cloud]{"entity": "cloud-server", "value": "cloud"}
+    - installation on [AWS]{"entity": "cloud-server", "value": "aws"}
+    - installation on [Amazon Web Services]{"entity": "cloud-server", "value": "aws"}
+    - installation on [Google Cloud]{"entity": "cloud-server", "value": "google-cloud"}
+    - installation on [Microsoft Azure]{"entity": "cloud-server", "value": "microsoft-azure"}
+    - installation on [Linode]{"entity": "cloud-server", "value": "linode"}
+    #installation
+    - How to [install]{"entity": "step"} Gluu server?
+    - How to depoy Gluu Server on [Kubernetes]{"entity": "deployment-platform", "value": "kubernetes"}?
+    - How to use [Cloud Native]{"entity": "deployment-platform", "value": "cn"} edition of Gluu Server?
+    - How to use [CN]{"entity": "deployment-platform", "value": "cn"} edition of Gluu Server?
+    - What is the [RAM]{"entity": "general_entity"} and [CPU]{"entity": "general_entity"} required for [oxAuth]{"entity": "application"} installation in [CN]{"entity": "deployment-platform", "value": "cn"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [AWS]{"entity": "cloud-server", "value": "aws"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [Amazon Web Services]{"entity": "cloud-server", "value": "aws"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [Google Cloud]{"entity": "cloud-server", "value": "google-cloud"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [DigitalOcean]{"entity": "cloud-server", "value": "digitalocean"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [Azure]{"entity": "cloud-server", "value": "azure"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [Minikube]{"entity": "cloud-server", "value": "minikube"}?
+    - How to deploy [CN]{"entity": "deployment-platform", "value": "cn"} edition on [MicroK8s]{"entity": "cloud-server", "value": "microK8s"}?
+    - How to do [docker]{"entity": "deployment-platform", "value": "docker"} installation?
+    - How install gluu server on [ubuntu]{"entity": "deployment-platform", "value": "ubuntu"}?
+    - How install gluu server on [RHEL]{"entity": "deployment-platform", "value": "rhel"}?
+    - How install gluu server on [CentOS]{"entity": "deployment-platform", "value": "centos"}?
+    - How install gluu server on [ubuntu]{"entity": "deployment-platform", "value": "ubuntu"}?
+    - How install gluu server on [SUSE]{"entity": "deployment-platform", "value": "suse"}?
+  
+

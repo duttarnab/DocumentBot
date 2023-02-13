@@ -1,0 +1,178 @@
+{
+    "vm-preparation": [
+        {
+            "id": 1,
+            "data": [{"entity":"general_entity", "value":"vm"}, 
+                {"entity":"step", "value":"installation"},
+                {"entity":"general_entity", "value":"ram"},
+                {"entity":"general_entity", "value":"memory"},
+                {"entity":"environment", "value":"testing"},
+                {"entity":"general_entity", "value":"cpu"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#testing-environment"
+        },
+        {
+            "id": 2,
+            "data": [{"entity":"environment", "value":"production"}, 
+                {"entity":"application", "value":"oxAuth"}, 
+                {"entity":"application", "value":"oxTrust"}, 
+                {"entity":"application", "value":"LDAP"}, 
+                {"entity":"application", "value":"fido2"},
+                {"entity":"application", "value":"scim"},
+                {"entity":"application", "value":"config-job"},
+                {"entity":"application", "value":"jackrabbit"},
+                {"entity":"application", "value":"persistence-job"},
+                {"entity":"application", "value":"SAML"},
+                {"entity":"application", "value":"oxPassport"},
+                {"entity":"application", "value":"oxd"},
+                {"entity":"application", "value":"nginx"},
+                {"entity":"application", "value":"key-rotation"},
+                {"entity":"application", "value":"cr-rotate"},
+                {"entity":"application", "value":"casa"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#production-environment"
+        },
+        {
+            "id": 3,
+            "data": [{"entity":"general_entity", "value":"os"}            
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#supported-operating-systems"
+        },
+        {
+            "id": 4,
+            "data": [{"entity":"general_entity", "value":"firewall"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#ports"
+        },
+        {
+            "id": 5,
+            "data": [{"entity":"cloud-server", "value":"cloud"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#cloud-specific-notes"
+        },
+        {
+            "id": 6,
+            "data": [
+                {"entity":"cloud-server", "value":"aws"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#amazon-aws"
+        },
+        {
+            "id": 7,
+            "data": [
+                {"entity":"cloud-server", "value":"google-cloud"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#google-cloud-platform"
+        },
+        {
+            "id": 8,
+            "data": [
+                {"entity":"cloud-server", "value":"microsoft-azure"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#microsoft-azure"
+        },
+        {
+            "id": 9,
+            "data": [
+                {"entity":"cloud-server", "value":"linode"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/#linode-vm"
+        }
+    ],
+    "installation": [
+        {
+            "id": 1,
+            "data": [{"entity":"deployment-platform", "value":"kubernetes"},
+                {"entity":"deployment-platform", "value":"cn"},
+                {"entity":"general_entity", "value":"ram"},
+                {"entity":"general_entity", "value":"memory"},
+                {"entity":"application", "value":"oxAuth"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#system-requirements-for-cloud-deployments"
+        },
+        {
+            "id": 2,
+            "data": [{"entity":"deployment-platform", "value":"cn"},
+                {"entity":"cloud-server", "value":"aws"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#amazon-web-services-aws-eks"
+        },
+        {
+            "id": 3,
+            "data": [{"entity":"deployment-platform", "value":"cn"}, 
+                {"entity":"cloud-server", "value":"google-cloud"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#gce-google-cloud-engine-gke"
+        },
+        {
+            "id": 4,
+            "data": [{"entity":"deployment-platform", "value":"cn"}, 
+                {"entity":"cloud-server", "value":"digitalocean"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#digitalocean-kubernetes-doks"
+        },
+        {
+            "id": 6,
+            "data": [{"entity":"deployment-platform", "value":"cn"}, 
+                {"entity":"cloud-server", "value":"azure"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#azure-aks"
+        },
+        {
+            "id": 7,
+            "data": [{"entity":"deployment-platform", "value":"cn"}, 
+                {"entity":"cloud-server", "value":"minikube"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#minikube"
+        },
+        {
+            "id": 8,
+            "data": [{"entity":"deployment-platform", "value":"cn"}, 
+                {"entity":"cloud-server", "value":"microK8s"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-kubernetes/#microk8s"
+        },
+        {
+            "id": 8,
+            "data": [{"entity":"deployment-platform", "value":"docker"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-docker/#docker-installation"
+        },
+        {
+            "id": 8,
+            "data": [{"entity":"deployment-platform", "value":"ubuntu"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-ubuntu/#ubuntu-installation"
+        },
+        {
+            "id": 8,
+            "data": [{"entity":"deployment-platform", "value":"rhel"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-rhel/#rhel-installation"
+        },
+        {
+            "id": 8,
+            "data": [{"entity":"deployment-platform", "value":"centos"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-centos/#centos-installation"
+        },
+        {
+            "id": 8,
+            "data": [{"entity":"deployment-platform", "value":"suse"}
+            ],
+            "response": "Refer: https://gluu.org/docs/gluu-server/4.5/installation-guide/install-suse/#suse-installation"
+        },
+        {
+            "id": 9,
+            "data": [{"entity":"step", "value":"install"}
+            ],
+            "response": "Please provide more details like on which platform you want to install Gluu server."
+        }
+    ],
+    "upgrade": [
+
+    ],
+    "clustering": [
+
+    ]
+}
