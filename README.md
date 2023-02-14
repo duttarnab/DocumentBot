@@ -40,4 +40,4 @@ cd <path_to_project_folder>
 rasa run actions
 ```
 
-7. Once it is started open <path_to_project_folder>/index.html on browser to test the chatbot.
+7. Once it is started open `<path_to_project_folder>/index.html` on browser to test the chatbot.
