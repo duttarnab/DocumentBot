@@ -23,7 +23,7 @@ services:
     #networks:
     #- all
     
-  rasa-server:
+  docbot:
     image: rasa-bot:latest
     working_dir: /app
     build: "./"
